@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "radioactiveblocks:blocks/planks_jungle",
+      "down": "radioactiveblocks:blocks/planks_jungle",
+      "up": "radioactiveblocks:blocks/planks_jungle",
+      "north": "radioactiveblocks:blocks/planks_jungle",
+      "east": "radioactiveblocks:blocks/planks_jungle",
+      "south": "radioactiveblocks:blocks/planks_jungle",
+      "west": "radioactiveblocks:blocks/planks_jungle"
+    }
+  },
+
+  "variants": {
+    "variant": {
+      "default": {}
+    },
+    "half": {
+      "bottom": { "model": "radioactiveblocks:radioactive_jungle_slab_bottom" },
+      "top": { "model": "radioactiveblocks:radioactive_jungle_slab_top" }
+    },
+    "facing": {
+      "north": {},
+      "south": { "y": 180 },
+      "west": { "y": 270 },
+      "east": { "y": 90 }
+    },
+    "inventory": [
+      {
+        "model": "radioactiveblocks:radioactive_jungle_slab_bottom",
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "end": "radioactiveblocks:blocks/quartz_block_lines_top",
+      "side": "radioactiveblocks:blocks/quartz_block_lines"
+    }
+  },
+  "variants": {
+    "axis": {
+      "y": { "model": "radioactiveblocks:radioactive_quartz_pillar" },
+      "z": { "model": "radioactiveblocks:radioactive_quartz_pillar", "x": 90 },
+      "x": { "model": "radioactiveblocks:radioactive_quartz_pillar", "x": 90, "y": 90 },
+      "none": { "model": "radioactiveblocks:radioactive_quartz_lines" }
+    }
+  }
+}

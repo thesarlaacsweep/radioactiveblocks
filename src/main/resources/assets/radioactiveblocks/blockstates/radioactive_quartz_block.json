@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_bottom_top",
+    "uvlock": true,
+    "transform": "forge:default-block",
+    "textures": {
+      "bottom": "radioactiveblocks:blocks/quartz_block_bottom",
+      "top": "radioactiveblocks:blocks/quartz_block_top",
+      "side": "radioactiveblocks:blocks/quartz_block_side"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

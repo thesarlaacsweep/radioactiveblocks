@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "radioactiveblocks:blocks/sandstone_normal",
+      "down": "radioactiveblocks:blocks/sandstone_bottom",
+      "up": "radioactiveblocks:blocks/sandstone_top",
+      "north": "radioactiveblocks:blocks/sandstone_normal",
+      "east": "radioactiveblocks:blocks/sandstone_normal",
+      "south": "radioactiveblocks:blocks/sandstone_normal",
+      "west": "radioactiveblocks:blocks/sandstone_normal"
+    }
+  },
+
+  "variants": {
+    "variant": {
+      "default": {}
+    },
+    "half": {
+      "bottom": { "model": "radioactiveblocks:radioactive_sandstone_slab_bottom" },
+      "top": { "model": "radioactiveblocks:radioactive_sandstone_slab_top" }
+    },
+    "facing": {
+      "north": {},
+      "south": { "y": 180 },
+      "west": { "y": 270 },
+      "east": { "y": 90 }
+    },
+    "inventory": [
+      {
+        "model": "radioactiveblocks:radioactive_sandstone_slab_bottom",
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "radioactiveblocks:radioactive_ore_maul"
+    },
+    "title": {
+      "translate": "advancements.story.radioactive_ore_maul.title"
+    },
+    "description": {
+      "translate": "advancements.story.radioactive_ore_maul.description"
+    }
+  },
+  "criteria": {
+    "radioactive_ore_maul": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "radioactiveblocks:radioactive_ore_maul"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "radioactiveblocks:blocks/prismarine_rough",
+      "down": "radioactiveblocks:blocks/prismarine_rough",
+      "up": "radioactiveblocks:blocks/prismarine_rough",
+      "north": "radioactiveblocks:blocks/prismarine_rough",
+      "east": "radioactiveblocks:blocks/prismarine_rough",
+      "south": "radioactiveblocks:blocks/prismarine_rough",
+      "west": "radioactiveblocks:blocks/prismarine_rough"
+    }
+  },
+
+  "variants": {
+    "variant": {
+      "default": {}
+    },
+    "half": {
+      "bottom": { "model": "radioactiveblocks:radioactive_prismarine_slab_bottom" },
+      "top": { "model": "radioactiveblocks:radioactive_prismarine_slab_top" }
+    },
+    "facing": {
+      "north": {},
+      "south": { "y": 180 },
+      "west": { "y": 270 },
+      "east": { "y": 90 }
+    },
+    "inventory": [
+      {
+        "model": "radioactiveblocks:radioactive_prismarine_slab_bottom",
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

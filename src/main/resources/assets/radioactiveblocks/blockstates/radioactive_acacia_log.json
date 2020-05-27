@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "end": "radioactiveblocks:blocks/log_acacia_top",
+      "side": "radioactiveblocks:blocks/log_acacia"
+    }
+  },
+  "variants": {
+    "axis": {
+      "y": { "model": "radioactiveblocks:radioactive_acacia_log" },
+      "z": { "model": "radioactiveblocks:radioactive_acacia_log", "x": 90 },
+      "x": { "model": "radioactiveblocks:radioactive_acacia_log", "x": 90, "y": 90 },
+      "none": { "model": "radioactiveblocks:radioactive_acacia_bark" }
+    }
+  }
+}

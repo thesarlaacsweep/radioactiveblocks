@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "radioactiveblocks:blocks/nether_brick",
+      "down": "radioactiveblocks:blocks/nether_brick",
+      "up": "radioactiveblocks:blocks/nether_brick",
+      "north": "radioactiveblocks:blocks/nether_brick",
+      "east": "radioactiveblocks:blocks/nether_brick",
+      "south": "radioactiveblocks:blocks/nether_brick",
+      "west": "radioactiveblocks:blocks/nether_brick"
+    }
+  },
+
+  "variants": {
+    "variant": {
+      "default": {}
+    },
+    "half": {
+      "bottom": { "model": "radioactiveblocks:radioactive_nether_brick_slab_bottom" },
+      "top": { "model": "radioactiveblocks:radioactive_nether_brick_slab_top" }
+    },
+    "facing": {
+      "north": {},
+      "south": { "y": 180 },
+      "west": { "y": 270 },
+      "east": { "y": 90 }
+    },
+    "inventory": [
+      {
+        "model": "radioactiveblocks:radioactive_nether_brick_slab_bottom",
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

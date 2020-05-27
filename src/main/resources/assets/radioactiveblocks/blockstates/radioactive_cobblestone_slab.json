@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "radioactiveblocks:blocks/cobblestone",
+      "down": "radioactiveblocks:blocks/cobblestone",
+      "up": "radioactiveblocks:blocks/cobblestone",
+      "north": "radioactiveblocks:blocks/cobblestone",
+      "east": "radioactiveblocks:blocks/cobblestone",
+      "south": "radioactiveblocks:blocks/cobblestone",
+      "west": "radioactiveblocks:blocks/cobblestone"
+    }
+  },
+
+  "variants": {
+    "variant": {
+      "default": {}
+    },
+    "half": {
+      "bottom": { "model": "radioactiveblocks:radioactive_cobblestone_slab_bottom" },
+      "top": { "model": "radioactiveblocks:radioactive_cobblestone_slab_top" }
+    },
+    "facing": {
+      "north": {},
+      "south": { "y": 180 },
+      "west": { "y": 270 },
+      "east": { "y": 90 }
+    },
+    "inventory": [
+      {
+        "model": "radioactiveblocks:radioactive_cobblestone_slab_bottom",
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

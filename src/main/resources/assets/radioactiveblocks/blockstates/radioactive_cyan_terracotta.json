@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block",
+    "textures": {
+      "all": "radioactiveblocks:blocks/hardened_clay_stained_cyan"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

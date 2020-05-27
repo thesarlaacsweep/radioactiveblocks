@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "radioactiveblocks:blocks/purpur_block",
+      "down": "radioactiveblocks:blocks/purpur_block",
+      "up": "radioactiveblocks:blocks/purpur_block",
+      "north": "radioactiveblocks:blocks/purpur_block",
+      "east": "radioactiveblocks:blocks/purpur_block",
+      "south": "radioactiveblocks:blocks/purpur_block",
+      "west": "radioactiveblocks:blocks/purpur_block"
+    }
+  },
+
+  "variants": {
+    "variant": {
+      "default": {}
+    },
+    "half": {
+      "bottom": { "model": "radioactiveblocks:radioactive_purpur_slab_bottom" },
+      "top": { "model": "radioactiveblocks:radioactive_purpur_slab_top" }
+    },
+    "facing": {
+      "north": {},
+      "south": { "y": 180 },
+      "west": { "y": 270 },
+      "east": { "y": 90 }
+    },
+    "inventory": [
+      {
+        "model": "radioactiveblocks:radioactive_purpur_slab_bottom",
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

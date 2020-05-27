@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "radioactiveblocks:blocks/quartz_block_bottom",
+      "down": "radioactiveblocks:blocks/quartz_block_bottom",
+      "up": "radioactiveblocks:blocks/quartz_block_top",
+      "north": "radioactiveblocks:blocks/quartz_block_side",
+      "east": "radioactiveblocks:blocks/quartz_block_side",
+      "south": "radioactiveblocks:blocks/quartz_block_side",
+      "west": "radioactiveblocks:blocks/quartz_block_side"
+    }
+  },
+
+  "variants": {
+    "variant": {
+      "default": {}
+    },
+    "half": {
+      "bottom": { "model": "radioactiveblocks:radioactive_quartz_slab_bottom" },
+      "top": { "model": "radioactiveblocks:radioactive_quartz_slab_top" }
+    },
+    "facing": {
+      "north": {},
+      "south": { "y": 180 },
+      "west": { "y": 270 },
+      "east": { "y": 90 }
+    },
+    "inventory": [
+      {
+        "model": "radioactiveblocks:radioactive_quartz_slab_bottom",
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

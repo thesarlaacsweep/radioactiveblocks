@@ -1,0 +1,36 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "radioactiveblocks:blocks/stone",
+      "down": "radioactiveblocks:blocks/stone_slab_top",
+      "up": "radioactiveblocks:blocks/stone_slab_top",
+      "north": "radioactiveblocks:blocks/stone_slab_side",
+      "east": "radioactiveblocks:blocks/stone_slab_side",
+      "south": "radioactiveblocks:blocks/stone_slab_side",
+      "west": "radioactiveblocks:blocks/stone_slab_side"
+    }
+  },
+
+  "variants": {
+    "variant": {
+      "default": {}
+    },
+    "half": {
+      "bottom": { "model": "radioactiveblocks:radioactive_stone_slab_bottom" },
+      "top": { "model": "radioactiveblocks:radioactive_stone_slab_top" }
+    },
+    "facing": {
+      "north": {},
+      "south": { "y": 180 },
+      "west": { "y": 270 },
+      "east": { "y": 90 }
+    },
+    "inventory": [
+      {
+        "model": "radioactiveblocks:radioactive_stone_slab_bottom",
+        "transform": "forge:default-block"
+      }
+    ]
+  }
+}

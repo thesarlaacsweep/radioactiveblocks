@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "end": "radioactiveblocks:blocks/log_jungle_top",
+      "side": "radioactiveblocks:blocks/log_jungle"
+    }
+  },
+  "variants": {
+    "axis": {
+      "y": { "model": "radioactiveblocks:radioactive_jungle_log" },
+      "z": { "model": "radioactiveblocks:radioactive_jungle_log", "x": 90 },
+      "x": { "model": "radioactiveblocks:radioactive_jungle_log", "x": 90, "y": 90 },
+      "none": { "model": "radioactiveblocks:radioactive_jungle_bark" }
+    }
+  }
+}

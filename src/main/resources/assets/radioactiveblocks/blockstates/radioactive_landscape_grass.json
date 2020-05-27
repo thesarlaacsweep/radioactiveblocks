@@ -1,0 +1,21 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "particle": "radioactiveblocks:blocks/dirt",
+      "down": "radioactiveblocks:blocks/dirt",
+      "up": "radioactiveblocks:blocks/grass_top_rb7",
+      "east": "radioactiveblocks:blocks/grass_side_rb7",
+      "west": "radioactiveblocks:blocks/grass_side_rb7",
+      "north": "radioactiveblocks:blocks/grass_side_rb7",
+      "south": "radioactiveblocks:blocks/grass_side_rb7"
+    },
+    "model": "radioactiveblocks:radioactive_landscape_grass",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

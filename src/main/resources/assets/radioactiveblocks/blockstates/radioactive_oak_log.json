@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "end": "radioactiveblocks:blocks/log_oak_top",
+      "side": "radioactiveblocks:blocks/log_oak"
+    }
+  },
+  "variants": {
+    "axis": {
+      "y": { "model": "radioactiveblocks:radioactive_oak_log" },
+      "z": { "model": "radioactiveblocks:radioactive_oak_log", "x": 90 },
+      "x": { "model": "radioactiveblocks:radioactive_oak_log", "x": 90, "y": 90 },
+      "none": { "model": "radioactiveblocks:radioactive_oak_bark" }
+    }
+  }
+}

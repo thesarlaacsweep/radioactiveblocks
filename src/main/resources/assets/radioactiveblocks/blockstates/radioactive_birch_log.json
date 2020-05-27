@@ -1,0 +1,17 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "end": "radioactiveblocks:blocks/log_birch_top",
+      "side": "radioactiveblocks:blocks/log_birch"
+    }
+  },
+  "variants": {
+    "axis": {
+      "y": { "model": "radioactiveblocks:radioactive_birch_log" },
+      "z": { "model": "radioactiveblocks:radioactive_birch_log", "x": 90 },
+      "x": { "model": "radioactiveblocks:radioactive_birch_log", "x": 90, "y": 90 },
+      "none": { "model": "radioactiveblocks:radioactive_birch_bark" }
+    }
+  }
+}

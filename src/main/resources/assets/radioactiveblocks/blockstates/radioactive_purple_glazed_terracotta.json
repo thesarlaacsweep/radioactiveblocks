@@ -1,0 +1,15 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block",
+    "textures": {
+      "all": "radioactiveblocks:blocks/glazed_terracotta_purple"
+    }
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}
