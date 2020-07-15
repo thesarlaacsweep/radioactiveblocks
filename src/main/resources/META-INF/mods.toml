@@ -1,0 +1,41 @@
+
+modLoader="javafml" #mandatory
+
+loaderVersion="[28,)" #mandatory (28 is current forge version)
+
+issueTrackerURL="https://github.com/thesarlaacsweep/radioactiveblocks_v2/issues" #optional
+
+[[mods]] #mandatory
+
+modId="radioactiveblocks" #mandatory
+
+version="2.1.0" #mandatory
+
+displayName="Radioactive Blocks" #mandatory
+
+updateJSONURL="https://github.com/thesarlaacsweep/radioactiveblocks_updates/blob/master/updates.json" #optional
+
+#displayURL="http://example.com/" #optional
+
+#logoFile="https://media.forgecdn.net/avatars/thumbnails/275/619/64/64/637262887391987635.png" #optional
+
+credits="Thanks to everyone playing this mod it's greatly appreciated." #optional
+
+authors="The SarlaacSweep" #optional
+
+description='''
+Radioactive Blocks adds many vanilla blocks to the game as light sources and creates some interesting side-effects as well.
+'''
+[[dependencies.radioactiveblocks]]
+    modId = "forge"
+    mandatory = true
+    versionRange = "[28,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.radioactiveblocks]]
+    modId = "minecraft"
+    mandatory = true
+    versionRange = "[1.14,]"
+    ordering = "NONE"
+    side = "BOTH"
