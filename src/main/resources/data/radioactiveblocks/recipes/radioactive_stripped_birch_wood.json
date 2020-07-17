@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "radioactive_stripped_wood",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "radioactiveblocks:radioactive_birch_wood"
+    }
+  },
+  "result": {
+    "item": "radioactiveblocks:radioactive_stripped_birch_wood",
+    "count": 3
+  }
+}
