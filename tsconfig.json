@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+      "target": "es6",
+      "lib": ["es6", "dom", "esnext.asynciterable"],
+      "module": "commonjs",
+      "jsx": "react",
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
+
+      "rootDir": "./",
+      "outDir": "./dist",
+      "sourceMap": true,
+
+      "forceConsistentCasingInFileNames": true,
+      "noImplicitReturns": true,
+      "strict": true,
+
+      "pretty": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"]
+}
