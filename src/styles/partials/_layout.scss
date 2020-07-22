@@ -1,4 +1,6 @@
 @use "sass:color";
+@use "../modules/variables" as *;
+@use "../modules/mixins" as *;
 
 .vertical-tabs {
   flex: 0 0 auto;
@@ -7,12 +9,22 @@
 .tab-content {
   display: flex;
   flex: 1 1 auto;
-  margin: 12px 0;
+  margin: 16px 0;
 }
 
 div[role=tabpanel] {
   display: flex;
+}
+
+.active-tab-content {
   flex: 1 1 auto;
-  background-color: transparentize(#BCCCDB, 0.9);
-  text-align: left;
+  border-left: 1px solid transparentize($border-color, 0.5);
+  z-index: 1000;
+  background-color: inherit;
+}
+
+.tab-panel-content {
+  position: relative;
+  display: flex;
+  flex: 1 1 auto;
 }

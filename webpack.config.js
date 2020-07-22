@@ -54,6 +54,15 @@ module.exports = (env, argv) => {
               }
             }
           ]
+        },
+        {
+          test: /\.(jpe?g|gif|png)$/,
+          use: {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]"
+            }
+          }
         }
       ]
     },
