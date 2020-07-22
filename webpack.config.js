@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const BrowserSyncPlugin = require("browser-sync-webpack-plugin");
 const path = require("path");
 const webpack = require("webpack");
 module.exports = (env, argv) => {
@@ -38,7 +39,7 @@ module.exports = (env, argv) => {
         {
           test: /\.(sa|sc|c)ss$/,
           use: [
-            isDevMode ? "style-loader": MiniCssExtractPlugin.loader,
+            isDevMode ? "style-loader" : MiniCssExtractPlugin.loader,
             { loader: "css-loader", options: { sourceMap: true } },
             { loader: "resolve-url-loader" },
             {
@@ -58,10 +59,20 @@ module.exports = (env, argv) => {
     },
     devtool: "cheap-source-map",
     plugins: isDevMode ? [
-      new HtmlWebpackPlugin({ template: "./index.html", filename: "index.html", inject: "body" })
+      new HtmlWebpackPlugin({ template: "./index.html", filename: "index.html", inject: "body" }),
+      new BrowserSyncPlugin({
+        browser: 'chrome.exe',
+        open: true,
+        notify: false,
+        files: ['*.html', './src/**/*.tsx', './src/scss/*'],
+        proxy: "http://localhost:8080/",
+        injectChanges: true,
+        reloadDelay: 500,
+        watch: true
+      })
     ] : [
-      new MiniCssExtractPlugin({ filename: "[name].bundle.css" })
-    ]
+        new MiniCssExtractPlugin({ filename: "[name].bundle.css" })
+      ]
   };
 
   if (isDevMode) {

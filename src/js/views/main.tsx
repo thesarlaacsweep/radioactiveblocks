@@ -6,12 +6,27 @@ import {
   Toolbar,
   Typography,
   Avatar,
+  createMuiTheme,
+  ThemeProvider
 } from "@material-ui/core";
+import { VerticalTabs } from "../components/vertical_tabs";
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#2368AD"
+    },
+    secondary: {
+      main: "#2F4459"
+    }
+  }
+});
 
 export function Main(): JSX.Element {
   return (
-    <Container component="div">
-      <AppBar position="static">
+    <ThemeProvider theme={theme}>
+      <Container component="div">
+      <AppBar position="static" color="secondary">
         <Toolbar style={{ justifyContent: "space-between" }}>
           <Typography variant="h6">Radioactive Blocks Documentation</Typography>
           <Avatar
@@ -21,7 +36,9 @@ export function Main(): JSX.Element {
           />
         </Toolbar>
       </AppBar>
+      <VerticalTabs />
     </Container>
+    </ThemeProvider>
   );
 }
 

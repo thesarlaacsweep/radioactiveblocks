@@ -7,9 +7,9 @@
   "author": "Ronnie Petty <rpetty.developer@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "clean": "del dist",
-    "clean:prod": "del dist/*.html",
-    "dev:server": "webpack-dev-server --mode development --open --hot",
+    "clean": "rm -rf ./dist",
+    "clean:prod": "rm -rf ./dist/*.html",
+    "dev:server": "webpack-dev-server --mode development --hot",
     "dev": "yarn dev:server && webpack -w --mode development",
     "build": "webpack --mode production",
     "prettier": "tslint-config-prettier-check ./tslint.json"

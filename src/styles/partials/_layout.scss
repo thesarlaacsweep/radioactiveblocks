@@ -1,0 +1,18 @@
+@use "sass:color";
+
+.vertical-tabs {
+  flex: 0 0 auto;
+}
+
+.tab-content {
+  display: flex;
+  flex: 1 1 auto;
+  margin: 12px 0;
+}
+
+div[role=tabpanel] {
+  display: flex;
+  flex: 1 1 auto;
+  background-color: transparentize(#BCCCDB, 0.9);
+  text-align: left;
+}
