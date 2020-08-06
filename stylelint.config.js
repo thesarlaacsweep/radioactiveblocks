@@ -19,7 +19,8 @@ module.exports = {
       "selector-no-vendor-prefix": true,
       "selector-no-universal": true,
       "media-feature-name-no-vendor-prefix": true,
-      "scss/at-rule-no-unknown": true
+      "at-rule-no-unknown": null,
+      "scss/at-rule-no-unknown": false
     }
   }
 };

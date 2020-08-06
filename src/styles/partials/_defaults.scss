@@ -1,3 +1,9 @@
+@use "../modules/variables" as *;
+
 p {
   margin: 0 0 0.5em;
+}
+
+external-link {
+  color: $link-color;
 }

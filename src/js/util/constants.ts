@@ -11,5 +11,8 @@ export const UI_THEME: Theme = createMuiTheme({
         success: {
             main: "#20AF60",
         },
+        text: {
+            secondary: "#0066CC"
+        }
     },
 });
