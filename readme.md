@@ -7,3 +7,7 @@ Branch Version: 1.16.x<br>
 Mod Version: 4.2.0
 
 For more information on how to use this mod, visit the [Radioactive Blocks Documentation](https://thesarlaacsweep.github.io/radioactiveblocks/).
+
+#### RADIOACTIVE BLOCKS IS NO LONGER ACTIVE
+----
+For more details see the [announcement](https://www.curseforge.com/minecraft/mc-mods/radioactive-blocks#c28).
